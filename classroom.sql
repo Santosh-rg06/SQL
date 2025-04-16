@@ -25,7 +25,9 @@ VALUES
   select * from student;
   select * from student where marks >40 and city = 'beng';
   
-  
+  /* Operators:
+  AND (to both conditions to be true)*/
+  SELECT * FROM student Where marks > 30 AND city ="Punj";
 
     
     
